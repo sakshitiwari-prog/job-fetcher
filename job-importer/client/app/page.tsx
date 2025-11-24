@@ -176,6 +176,7 @@ export default function ImportHistoryPage() {
                 <strong>Understanding the counts:</strong>
                 <ul style={{margin: '0.5rem 0 0 1.25rem', paddingLeft: 0}}>
                   <li><strong>Total:</strong> Raw items found in all RSS feeds (may include items without required fields)</li>
+                  <li><strong>Skipped:</strong> Items skipped because no item update</li>
                   <li><strong>Invalid:</strong> Items skipped because they lack a GUID (unique identifier) - cannot be saved to database</li>
                   <li><strong>New:</strong> Valid items with GUID that were successfully created in the database</li>
                   <li><strong>Updated:</strong> Existing items that had content changes and were updated</li>
